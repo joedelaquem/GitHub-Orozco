@@ -317,11 +317,8 @@ footer section div h3{
     width: 50px;
     height: 50px;
     right: -40px;
-    transition: right, 0.5s;
 }
-.izquierda:hover{
-    right: -30px;
-}
+
 .izquierda img{
     height: 70px;
     width: 50px;
@@ -331,10 +328,6 @@ footer section div h3{
     width: 50px;
     height: 50px;
     right: -30px;
-    transition: right 0.5s;
-}
-.derecha:hover{
-    right: -40px;
 }
 .derecha img{
     height: 70px;
@@ -371,10 +364,6 @@ footer section div h3{
     width: 140px;
     height: 50px;
     font-size: 15px;
-    transition: width 0.5s;
-}
-.contenedor_carreras button:hover{
-    width: 180px;
 }
 
 .contenedor_tt{
@@ -543,11 +532,6 @@ footer section div h3{
     border: 2px solid black;
     margin-left: 70px;
     box-shadow: 5px 5px 10px gray;
-    transition: width, box-shadow, 1s;
-}
-.formulario input:hover{
-    width: 330px;
-    box-shadow: 0 0 25px red;
 }
 .formulario select{
     display: inline-block;
@@ -556,10 +540,6 @@ footer section div h3{
     border: 2px solid black;
     margin-left: 70px;
     box-shadow: 5px 5px 10px gray;
-    transition: box-shadow 1s;
-}
-.formulario select:hover{
-    box-shadow: 0 0 25px red;
 }
 .formulario textarea{
     margin: 50px 0 50px 70px;
@@ -568,10 +548,6 @@ footer section div h3{
     font-size: 20px;
     border: 2px solid black;
     box-shadow: 5px 5px 10px gray;
-    transition: box-shadow 1s;
-}
-.formulario textarea:hover{
-    box-shadow: 0 0 30px red;
 }
 .formulario button{
     width: 250px;
@@ -582,11 +558,6 @@ footer section div h3{
     background-color: white;
     border: 2px solid black;
     box-shadow: 5px 5px 10px gray;
-    transition: box-shadow, width, 1s;
-}
-.formulario button:hover{
-    width: 280px;
-    box-shadow: 0 0 30px red;
 }
 
 
@@ -775,6 +746,7 @@ footer section div h3{
     .derecha{
         display: none;
     }
+    
 
     
     
