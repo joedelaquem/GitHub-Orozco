@@ -261,7 +261,7 @@ footer section div h3{
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
-    box-shadow: 20px 20px 10px gray;
+    box-shadow: 20px 20px 10px darkred;
 }
 .contenedor_nuestrotrabajo h1{
     padding-left: 30px;
@@ -290,7 +290,7 @@ footer section div h3{
 .contenedor_iframe iframe{
     height: 300px;
     border-radius: 2%;
-    box-shadow: 20px 20px 10px gray;
+    box-shadow: 20px 20px 10px darkred;
 }
 
 .contenedor_articulo{
@@ -315,7 +315,7 @@ footer section div h3{
 }
 .contenedor_atat img{
     border-radius: 10%;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 20px 20px 10px darkred;
 }
 
 .contenedor_conectando{
@@ -327,7 +327,7 @@ footer section div h3{
 }
 .contenedor_conectando img{
     border-radius: 10%;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 20px 20px 10px darkred;
     height: 250px;
 }
 
@@ -341,7 +341,7 @@ footer section div h3{
 }
 .contenedor_expandiendo img{
     border-radius: 10%;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 20px 20px 10px darkred;
 }
 
 .izquierda{
@@ -357,6 +357,7 @@ footer section div h3{
 .izquierda img{
     height: 70px;
     width: 50px;
+    display: none;
 }
 .derecha{
     position: relative;
@@ -371,6 +372,7 @@ footer section div h3{
 .derecha img{
     height: 70px;
     width: 50px;
+    display: none;
 }
 
 
@@ -391,7 +393,7 @@ footer section div h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 20px 20px 10px gray;
+    box-shadow: 20px 20px 10px darkred;
 }
 
 .contenedor_carreras h1{
@@ -425,7 +427,8 @@ footer section div h3{
     font-size: 70px;
     border: 2px solid black;
     padding: 0 500px 0 500px;
-    box-shadow: 0px 0px 40px gray;
+    box-shadow: 0px 0px 40px darkred;
+    background-color: white;
 }
 
 .contenedor_rangos{
@@ -442,7 +445,7 @@ footer section div h3{
 }
 .contenedor_Gran-almirante img{
     margin-left: 40px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px darkred;
 }
 .contenedor_Gran-almirante p{
     display: inline-block;
@@ -461,7 +464,7 @@ footer section div h3{
 }
 .contenedor_almirante-de-flota img{
     margin-left: 40px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px darkred;
 }
 .contenedor_almirante-de-flota p{
     display: inline-block;
@@ -481,7 +484,7 @@ footer section div h3{
 }
 .contenedor_almirante img{
     margin-left: 40px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px darkred;
 }
 .contenedor_almirante p{
     display: inline-block;
@@ -501,7 +504,7 @@ footer section div h3{
 }
 .contenedor_vicealmirante img{
     margin-left: 40px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px darkred;
 }
 .contenedor_vicealmirante p{
     display: inline-block;
@@ -521,7 +524,7 @@ footer section div h3{
 }
 .contenedor_contralmirante img{
     margin-left: 40px;
-    box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px darkred;
 }
 .contenedor_contralmirante p{
     display: inline-block;
@@ -549,7 +552,7 @@ footer section div h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 20px 20px 10px gray;
+    box-shadow: 20px 20px 10px darkred;
 }
 .contenedor_unite h1{
     font-size: 70px;
@@ -565,8 +568,9 @@ footer section div h3{
 }
 .formulario label{
     font-size: 25px;
+    color: white;
     margin: 40px 20px 40px 50px;
-    text-decoration: underline black;
+    text-decoration: underline white;
 }
 .formulario input{
     display: inline-block;
@@ -574,12 +578,12 @@ footer section div h3{
     height: 30px;
     border: 2px solid black;
     margin-left: 70px;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px darkred;
     transition: width, box-shadow, 1s;
 }
 .formulario input:hover{
     width: 330px;
-    box-shadow: 0 0 25px red;
+    box-shadow: 0 0 25px black;
 }
 .formulario select{
     display: inline-block;
@@ -587,11 +591,11 @@ footer section div h3{
     height: 30px;
     border: 2px solid black;
     margin-left: 70px;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px darkred;
     transition: box-shadow 1s;
 }
 .formulario select:hover{
-    box-shadow: 0 0 25px red;
+    box-shadow: 0 0 25px black;
 }
 .formulario textarea{
     margin: 50px 0 50px 70px;
@@ -599,11 +603,11 @@ footer section div h3{
     height: 200px;
     font-size: 20px;
     border: 2px solid black;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px darkred;
     transition: box-shadow 1s;
 }
 .formulario textarea:hover{
-    box-shadow: 0 0 30px red;
+    box-shadow: 0 0 25px black;
 }
 .formulario button{
     width: 250px;
@@ -613,12 +617,12 @@ footer section div h3{
     align-self: center;
     background-color: white;
     border: 2px solid black;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px darkred;
     transition: box-shadow, width, 1s;
 }
 .formulario button:hover{
     width: 280px;
-    box-shadow: 0 0 30px red;
+    box-shadow: 0 0 25px black;
 }
 
 
