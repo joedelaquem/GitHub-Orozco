@@ -43,10 +43,6 @@
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     box-shadow: 5px 5px 10px gray;
-    transition: box-shadow 0.1s;
-}
-.lista_item:hover{
-    box-shadow: 0px 0px 40px red;
 }
 
 
@@ -57,10 +53,6 @@
     height: 60px;
     width: 100px;
     box-shadow: 5px 5px 10px gray;
-    transition: box-shadow 0.1s;
-}
-.select_idioma:hover{
-    box-shadow: 0px 0px 40px red;
 }
 
 /*------------------------------------------------------------------------------*/
@@ -89,10 +81,6 @@
     justify-self: center;
     align-self: center;
     font-size: 17px;
-    transition: width 0.3s;
-}
-.main_button:hover{
-    width: 150px;
 }
 
 
@@ -176,10 +164,6 @@
 /* Footer */
 footer{
     background-color: rgb(58, 58, 58);
-    transform: box-shadow 1s;
-}
-footer:hover{
-    box-shadow: 00px 0px 50px red;
 }
 footer section{
     border-top: 1.5px solid black;
@@ -218,10 +202,6 @@ footer section div h3{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    transition: color 1s;
-}
-.footer_mail:hover{
-    color: blue;
 }
 .h5{
     color: white;
@@ -231,10 +211,6 @@ footer section div h3{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    transition: color 1s;
-}
-.h5_link:hover{
-    color: blue;
 }
 
 /*--------------------------------------------------------------------------------------------------*/
